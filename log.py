@@ -6,7 +6,8 @@ from logbook.more import ColorizedStderrHandler
 from functools import wraps
 
 check_path = '.'
-LOG_DIR = os.path.join(check_path, 'log')
+# LOG_DIR = os.path.join(check_path, 'log')
+LOG_DIR = os.path.join(os.getcwd())
 file_stream = False
 if not os.path.exists(LOG_DIR):
     os.makedirs(LOG_DIR)
