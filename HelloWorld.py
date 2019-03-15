@@ -32,4 +32,3 @@ for i in range(1, rows):
     # LOG.info(method)
     # LOG.info(data)
 LOG.info("================= Excel文件读取结束 =================")
-LOG.info('dasfsadfsa', 'ewrfsafsadfas')
